@@ -19,11 +19,11 @@
 
 // for(let i = 0; i < item.length; i++){
 //     if(userInp === item[i]){
-//         alert('Yes! This product is avalable in my bakery')
+//         alert('Yes! This product is avalable')
 //         break;
 //     }
 //     else{
-//         alert('Sorry! this is not avalable in my bakery.')
+//         alert('Sorry! this is not avalable .')
 //         break;
 //     }
 // }
@@ -41,9 +41,9 @@
 // }
 
 // var array = [1, 2, 3, 4, 5, 6];
-// var userInput = prompt("enter value")
+// var userinp = prompt("enter value")
 
-// printNumbers(array, userInput);
+// printNumbers(array, userinp);
 
 
 
@@ -51,10 +51,10 @@
 // Question 4
 
 
-// var numLines = parseInt(prompt("Enter the number  for pattern a:"));
+// var userinp = parseInt(prompt("Enter the number"));
 
 // //  a
-// for (var i = 0; i < numLines; i++) {
+// for (var i = 0; i < userinp; i++) {
 //     var line = '';
 //     for (var j = 0; j < 5; j++) {
 //         line += '*';
@@ -64,7 +64,7 @@
 // document.write('<br>');
 
 // //  b
-// for (var i = 1; i <= numLines; i++) {
+// for (var i = 1; i <= userinp; i++) {
 //     var line = '';
 //     for (var j = 0; j < i; j++) {
 //         line += '*';
@@ -74,7 +74,7 @@
 // document.write('<br>');
 
 // //  c
-// for (var i = numLines; i > 0; i--) {
+// for (var i = userinp; i > 0; i--) {
 //     var line = '';
 //     for (var j = 0; j < i; j++) {
 //         line += '*';
